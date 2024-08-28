@@ -2,7 +2,7 @@ import java.util.Random;
 public class Reader extends Thread{  
 
 	private SharedData data;
-	
+	 
 	private final static int MIN_READING_TIME = 1000;
 	private final static int MAX_READING_TIME = 2000;
 	private final static int MIN_OTHER_ACTIVITIES_TIME = 1000;
